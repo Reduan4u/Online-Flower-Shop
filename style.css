@@ -47,7 +47,7 @@
 }
 
 .button {
-    padding: 20px 40px;
+    padding: 20px 45px;
     border: 0;
     border-radius: 8px;
     background: #E55473;
@@ -131,5 +131,31 @@
     margin-top: 130px;
     height: 620px;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.138)
+    background: rgba(229, 84, 115, 0.138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+
+.red {
+    color: rgba(229, 84, 115, 1);
+
+}
+
+.deal-info {
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+
 }
