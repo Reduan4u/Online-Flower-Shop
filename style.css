@@ -54,3 +54,82 @@
     color: white;
     font-size: 20px;
 }
+
+/* FEATURES CONTAINER */
+
+.features-container {
+
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 180px;
+
+}
+
+.features-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+}
+
+.features-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.features-flowers {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.flower-box {}
+
+.feature-flower {
+
+    width: 460px;
+    height: 540px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-name {
+    margin-top: 30px;
+    color: #272727;
+    font-size: 25px;
+    text-decoration-line: underline;
+}
+
+/* SERVICE CONTAINER */
+
+.service-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 130px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.services {
+    margin-top: 25px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+}
+
+/* DEAL CONTAINER */
+
+.deal-container {
+    margin-top: 130px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.138)
+}
