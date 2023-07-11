@@ -193,18 +193,19 @@
 /* SUBSCRIBE CONTAINER */
 
 .subscribe-container {
-    border-radius: 8px;
-    width: 80%;
-    margin: auto;
-    margin-top: 130px;
-    margin-bottom: 130px;
-    background-image: url("/flower-asset/rectangle.png");
+
+    background-image: url("./flower-asset/rectangle-9.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 8px;
 
 }
 
